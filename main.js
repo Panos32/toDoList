@@ -36,6 +36,8 @@ let createPost = () => {
             <span class="options">
                 <i class="fas fa-edit"></i>
                 <i class="fas fa-trash-alt"></i>
+                <i onClick="deletePost(this)" class="fas fa-trash-alt"></i>
+                <i onClick="editPost(this)" class="fas fa-edit"></i>
             </span>
     </div>
     `;
